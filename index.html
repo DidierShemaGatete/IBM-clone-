@@ -9,49 +9,49 @@
 </head>
 
 
-<body class="mx-3">
+<body class=" class">
 
-    <header class="0">
+    <header class="sticky top-0 w-full bg-white z-10 px-2">
 
-        <nav class="flex justify-between items-center">
+        <nav class="flex justify-between items-center ">
             <div class="flex justify-between items-center gap-5">
-                <img class="w-8" src="./media/menu-svgrepo-com.svg" alt="">
+                <img class="w-8 md:hidden " src="./media/menu-svgrepo-com.svg" alt="">
         
-                <img class="w-24" src="./media/logoIBM.png" alt="">
+                <img class="w-14" src="./media/ibm-svgrepo-com (3).svg" alt="">
 
                 
                 <!-- ===== md nav tags ===== -->
 
-                <div class="flex gap-1 opacity-60">
+                <div class="hidden md:flex gap-1 opacity-60">
                     <p><a href="">Products</a></p>
 
                     <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
                 </div>
 
-                <div class="flex gap-1 opacity-60">
-                    <p><a href="">Products</a></p>
+                <div class="hidden md:flex gap-1 opacity-60">
+                    <p><a href="">Solutions</a></p>
 
                     <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
                 </div>
 
 
-                <div class="flex gap-1 opacity-60">
-                    <p><a href="">Products</a></p>
-
-                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
-                </div>
-
-
-
-                <div class="flex gap-1 opacity-60">
-                    <p><a href="">Products</a></p>
+                <div class="hidden md:flex gap-1 opacity-60">
+                    <p><a href="">Consulting</a></p>
 
                     <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
                 </div>
 
 
 
-                <div class="flex gap-1 opacity-60">
+                <div class="hidden md:flex gap-1 opacity-60">
+                    <p><a href="">More</a></p>
+
+                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
+                </div>
+
+
+
+                <div class="hidden md:flex gap-1 opacity-60">
                     <p><a href="">Products</a></p>
 
                     <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
@@ -69,16 +69,14 @@
                            
                 <img class="w-5 h-5" src="./media/profile-svgrepo-com.svg" alt="">
             </div>
-
-
+        
         </nav>
 
-        <div class="border"></div>
-
+        <div class="border-b "></div>
 
     </header>
 
-    <div class="md:flex gap-7">
+    <div class="md:flex gap-7 mx-3">
 
         <div class="md:flex flex-col justify-between">
 
@@ -131,12 +129,12 @@
 
     </div>
 
-    <div class="mt-32 mb-4">
+    <div class="mt-32 mb-4 mx-3">
         <h1 class="font-medium">Recommended for you</h1>
     </div>
 
 
-    <div class="md:flex">
+    <div class="md:flex mx-3">
         <!-- first column -->
 
         <div class="border-b-2"></div>
@@ -262,37 +260,41 @@
         
     </div>
 
-    <div>
-        <h1 class="text-2xl  pt-10 opacity-80">Browse our technology</h1>
+    <div class="md:flex justify-between gap-7 md:my-14 mx-3">
+
+        <div class="md:w-1/2">
+            <h1 class="text-2xl md:text-5xl pt-10 opacity-80">Browse our technology</h1>
+        </div>
+
+        <div class="md:w-1/2">
+            <div class="opacity-80 text-sm my-5">
+                <p>From our flagship products for enterprise <span class="text-blue-600 underline">hybrid cloud infrastructure,</span> to security, supply chain and storage solutions, find the answer to your business challenge.
+
+                </p>
+            </div>
+
+            <div class="flex gap-2 items-center">
+                <p class="text-xs text-blue-600">View all products</p>
+                <img  class="h-20 w-5" class="w-5" src="./media/right-arrow-svgrepo-com.svg" alt="">
+            </div>
+        </div>
     </div>
 
-    <div class="opacity-80 text-sm my-5">
-        <p>From our flagship products for enterprise <span class="text-blue-600 underline">hybrid cloud infrastructure,</span> to security, supply chain and storage solutions, find the answer to your business challenge.
-
-        </p>
-    </div>
-
-    <div class="flex gap-2">
-        <p class="text-xs text-blue-600">View all products</p>
-        <img  class="h-20" class="w-5" src="./media/right-arrow-svgrepo-com.svg" alt="">
-    </div>
-
-    <div class=" border-b-2 my-10"></div>
-
+    <div class=" md:hidden border-b-2 my-10 mx-3"></div>
 <!-- =========== Section ============ -->
 
 
-    <div class="my-8 md:flex flex-col gap-4">
+    <div class="my-8 md:flex flex-col gap-4 mx-3">
 
-        <!-- first -->
-        <div class="md:flex">
+        <!-- first --> 
+        <div class="md:flex gap-2 md:border">
 
             <div class="hover:bg-slate-200">
-                <img  class="h-20"  src="./media/anyconnect-svgrepo-com.svg" alt="">
+                <img  class="h-20 p-3"  src="./media/anyconnect-svgrepo-com.svg" alt="">
 
-                <h2 class="text-xl my-5">AI & machine learning</h2>
+                <h2 class="text-xl my-5 p-3">AI & machine learning</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
                 <div class="md:hidden border-b-2 my-10"></div>
@@ -300,12 +302,12 @@
 
             <!-- Second -->
 
-            <div class="hover:bg-slate-200">
-                <img  class="h-20"  src="./media/analytics-chart-growth-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200 md:border">
+                <img  class="h-20 p-3"  src="./media/analytics-chart-growth-svgrepo-com.svg" alt="">
 
-                <h2 class="text-xl my-5">Analytics</h2>
+                <h2 class="text-xl my-5 p-3">Analytics</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
                 <div class="md:hidden border-b-2 my-10"></div>
@@ -315,12 +317,12 @@
 
             <!-- Third-->
 
-            <div class="hover:bg-slate-200">
-                <img  class="h-20"  src="./media/science-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200 md:border">
+                <img  class="h-20 p-3"  src="./media/science-svgrepo-com.svg" alt="">
 
-                <h2 class="text-xl my-5">Databases</h2>
+                <h2 class="text-xl my-5 p-3">Databases</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
                 <div class="md:hidden border-b-2 my-10"></div>
@@ -330,80 +332,80 @@
 
             <!-- fourths -->
 
-            <div class="hover:bg-slate-200">
-                <img  class="h-20"  src="./media/server-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200 md:border">
+                <img  class="h-20 p-3"  src="./media/server-svgrepo-com.svg" alt="">
 
-                <h2 class="text-xl my-5">Compute & Servers</h2>
+                <h2 class="text-xl my-5 p-3">Compute & Servers</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
-                <div class="md:hidden border-b-2 my-10"></div>
+                <div class="md:hidden border-b-2"></div>
             </div>
         </div>
 
 
 
         <!-- fifth -->
-        <div class="md:flex">
+        <div class="md:flex gap-2 md:border">
 
-            <div class="hover:bg-slate-200">
+            <div class="hover:bg-slate-200  ">
                 <div class="">
-                    <img class="h-20" src="./media/devops-svgrepo-com (1).svg" alt="">
+                    <img class="h-20 p-3" src="./media/devops-svgrepo-com (1).svg" alt="">
                 </div>
 
                 <div class="">
-                <h2 class="text-xl ">DevOps</h2>
+                <h2 class="text-xl my-5 p-3">DevOps</h2>
 
-                    <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                    <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                     <div></div>
                 </div>
 
-                <div class=" border-b-2"></div>
+                <div class="md:hidden border-b-2"></div>
             </div>
 
 
 
             <!-- sixths -->
 
-            <div class="hover:bg-slate-200">
-                <img  class="h-20" src="./media/flowchart-hierarchy-process-svgrepo-com (1).svg" alt="">
+            <div class="hover:bg-slate-200 md:border">
+                <img  class="h-20 p-3" src="./media/flowchart-hierarchy-process-svgrepo-com (1).svg" alt="">
 
-                <h2 class="text-xl my-5">IT automation</h2>
+                <h2 class="text-xl my-5 p-3">IT automation</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
-                <div class=" border-b-2 my-10"></div>
+                <div class="md:hidden border-b-2 my-10"></div>
             </div>
 
 
 
             <!-- seventh -->
 
-            <div class="hover:bg-slate-200">
-                <img class="h-20" src="./media/chipdefense-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200 md:border">
+                <img class="h-20 p-3" src="./media/chipdefense-svgrepo-com.svg" alt="">
 
-                <h2 class="text-xl my-5">Quantum</h2>
+                <h2 class="text-xl my-5 p-3">Quantum</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
-                <div class=" border-b-2 my-10 "></div>
+                <div class="md:hidden border-b-2 my-10 "></div>
             </div>
 
 
             <!-- Eigth -->
 
-            <div class="hover:bg-slate-200">
-                <img class="h-20" src="./media/security-svgrepo-com (1).svg" alt="">
+            <div class="hover:bg-slate-200 md:border">
+                <img class="h-20 p-3"  src="./media/security-svgrepo-com (1).svg" alt="">
 
-                <h2 class="text-xl my-5">Security & identity</h2>
+                <h2 class="text-xl my-5 p-3">Security & identity</h2>
 
-                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <p class="text-xs p-3">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
 
-                <div class=" border-b-2 my-10"></div>
+                <div class="md:hidden border-b-2 my-10"></div>
             </div>
         </div>
 
@@ -413,17 +415,19 @@
 
 
 
-    <div class="bg-gray-100 opacity-90">
-        <h1 class="text-sm py-10 ml-5">What’s new</h1>
+    <div class="bg-gray-100 opacity-90 md:flex justify-between gap-5 mx-3">
+        <div class="">
+            <h1 class="text-sm py-10 ml-5">What’s new</h1>
 
-        <h1 class="text-3xl font-medium py-5 ml-5">Got responsible AI?</h1>
+            <h1 class="text-3xl font-medium py-5 ml-5 md:text-5xl md:my-5">Got responsible AI?</h1>
 
-        <p class="text-base py-5 ml-5">Gartner predicts the market for AI software will reach almost USD 134.8 billion by 2025. <span class="text-blue-600 underline">¹</span> Learn three key reasons why responsible AI is crucial.</p>
+            <p class="text-base py-5 ml-5">Gartner predicts the market for AI software will reach almost USD 134.8 billion by 2025. <span class="text-blue-600 underline">¹</span> Learn three key reasons why responsible AI is crucial.</p>
+        </div>
 
         <div class="relative overflow-hidden">
             <img src="./media/2018_CaitOppermann_Zurich_DSC35649.jpg.global.l_1x1.png" alt="">
 
-            <div class="absolute bottom-0  right-0 bg-[rgb(76,76,76)] px-5 my-8 flex flex-col -mb-1 justify-between w-2/3 h-2/5 overflow-hidden">
+            <div class="absolute bottom-0 md:w-1/3 md:h-40 right-0 bg-[rgb(76,76,76)] px-5 my-8 flex flex-col -mb-1 justify-between w-2/3 h-2/5 overflow-hidden">
                 <p class="text-white font-bold my-5">Read the Blog</p>
                 <img class="h-5 w-5 my-5" src="./media/right-arrow-svgrepo-com (1).svg" alt="">
 
@@ -432,34 +436,47 @@
     </div>
 
 
-    <div class="mx-5 my-10">
-        <h1 class="my-10 text-4xl w-1/2">Meet our global consultants</h1>
-
-        <p class=" text-lg text-slate-700 ">Bringing together a diverse set of voices with new technology, we collaborate closely, ideate freely and swiftly apply breakthrough innovations that drive big impact.</p>
-
-        <div class="text-lg mt-3 text-blue-700 mb-12 flex justify-start gap-6">
-            <h3  class="hover:underline">Visit IBM Consulting</h3>
-            <img class="w-5" src="./media/right-arrow-svgrepo-com.svg" alt="">
+    <div class="mx-5 my-10 md:flex justify-betweenitems-center gap-8 mx-3">
+        <div class="md:w-1/2">
+            <h1 class="text-2xl md:text-5xl pt-10 opacity-80">Meet our global consultants</h1>
         </div>
 
-        <img src="./media/dotcom-1-overview.jpg" alt="">
+        <div class="md:w-1/2">
+            <div class="opacity-80 text-sm my-5">
+                <p>From our flagship products for enterprise <span class="text-blue-600 underline">Bringing together a diverse set of voices with new technology, we collaborate closely, ideate freely and swiftly apply breakthrough innovations that drive big impact.
 
+                </p>
+            </div>
 
+            <div class="flex gap-2 items-center">
+                <p class="text-xs text-blue-600">Visit IBM Consulting</p>
+                <img  class="h-20 w-5" class="w-5" src="./media/right-arrow-svgrepo-com.svg" alt="">
+            </div>
+        </div>
     </div>
 
+    <img class="mx-3" src="./media/dotcom-1-overview.jpg" alt="">
 
 
-    <div class="mx-5 my-10">
+    
 
-        <h1 class="my-10 text-4xl w-1/2" >Inside IBM</h1>
 
-        <p class=" text-lg text-slate-700 ">Solving the world’s problems through technology wouldn’t be possible without our most important invention: the IBMer. Have a look our talented teams.</p>
 
-        <h4>About IBM</h4>
+    <div class="mx-5 my-10 md:flex mx-3"> 
 
-        <div class="text-lg mt-3 text-blue-700 mb-12 flex justify-start gap-6">
-            <h3 class="hover:underline">About IBM</h3>
-            <img class="w-5" src="./media/right-arrow-svgrepo-com.svg" alt="">
+        <div class="md:w-1/2">
+            <h1 class="my-10 text-4xl w-1/2" >Inside IBM</h1>
+        </div>
+
+        <div class="md:w-1/2">
+            <p class=" text-lg text-slate-700 ">Solving the world’s problems through technology wouldn’t be possible without our most important invention: the IBMer. Have a look our talented teams.</p>
+
+            <h4>About IBM</h4>
+
+            <div class="text-lg mt-3 text-blue-700 mb-12 flex justify-start gap-6">
+                <h3 class="hover:underline">About IBM</h3>
+                <img class="w-5" src="./media/right-arrow-svgrepo-com.svg" alt="">
+            </div>
         </div>
 
     </div>
@@ -468,7 +485,7 @@
     <!-- =============  careers section ================= -->
     
 
-    <div class="flex">
+    <div class="flex mx-3">
 
             <!-- first sect -->
         <div class="bg-gray-100 hover:bg-gray-200 w-1/4 flex flex-col justify-between border-b-2">
@@ -550,7 +567,7 @@
     </div>
 
 
-    <div class="ml-6 my-10">
+    <div class="ml-6 my-10 mx-3">
 
         <h1 class="font-medium opacity-90">Footnotes</h1>
 
@@ -562,7 +579,7 @@
 
 
 
-    <footer class="bg-[rgb(38,38,38)] mx-0 text-white text-sm ">
+    <footer class="bg-[rgb(38,38,38)] text-white text-sm -mx-3 ">
 
         <div class="md:hidden">
 
