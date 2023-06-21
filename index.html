@@ -11,14 +11,57 @@
 
 <body class="mx-3">
 
-    <header class="mb-20">
+    <header class="0">
 
         <nav class="flex justify-between items-center">
-            <div class="flex">
-                <img class="w-10"src="./media/menu-svgrepo-com.svg" alt="">
+            <div class="flex justify-between items-center gap-5">
+                <img class="w-8" src="./media/menu-svgrepo-com.svg" alt="">
         
                 <img class="w-24" src="./media/logoIBM.png" alt="">
+
+                
+                <!-- ===== md nav tags ===== -->
+
+                <div class="flex gap-1 opacity-60">
+                    <p><a href="">Products</a></p>
+
+                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
+                </div>
+
+                <div class="flex gap-1 opacity-60">
+                    <p><a href="">Products</a></p>
+
+                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
+                </div>
+
+
+                <div class="flex gap-1 opacity-60">
+                    <p><a href="">Products</a></p>
+
+                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
+                </div>
+
+
+
+                <div class="flex gap-1 opacity-60">
+                    <p><a href="">Products</a></p>
+
+                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
+                </div>
+
+
+
+                <div class="flex gap-1 opacity-60">
+                    <p><a href="">Products</a></p>
+
+                    <img class="w-7 " src="./media/dropdown-arrow-svgrepo-com.svg" alt="">
+                </div>
+
+
             </div>
+
+
+            
         
 
             <div class="flex gap-5">
@@ -35,39 +78,57 @@
 
     </header>
 
-    <div >
+    <div class="md:flex gap-7">
 
-        <h1 class="text-2xl ml-8 py-10">Put AI to work in the real world</h1>
+        <div class="md:flex flex-col justify-between">
+
+            
+            <h1 class="text-2xl ml-8 py-10 md:w-2/5 md:text-4xl md:opacity-80">Put AI to work in the real world</h1>
+            
+            <div>   
+                <p class="text-lg opacity-75 mb-5 md:text-2xl">With digital transformation in mind, partner with IBM experts to scale AI models fit for your business</p>
+
+                <div class="hidden md:flex  justify-between w-3/5 bg-blue-700 text-white px-3 shadow-2xl ">
+                    <button class=" py-2 px-2 ">Design your strategy</button>
+                    <img class="w-10"src="./media/right-arrow-svgrepo-com (1).svg" alt="">
         
-        <p class="text-lg opacity-75 mb-5">With digital transformation in mind, partner with IBM experts to scale AI models fit for your business</p>
-        
-    </div>
+                </div>
+            </div>
+            
+        </div>
 
-    <div class="flex  justify-between w-3/5 bg-blue-700 text-white px-3 shadow-2xl">
-        <button class=" py-2 px-2 ">Design your strategy</button>
-        <img class="w-10"src="./media/right-arrow-svgrepo-com (1).svg" alt="">
+        <div class="flex  justify-between w-3/5 bg-blue-700 text-white px-3 shadow-2xl md:hidden">
+            <button class=" py-2 px-2 ">Design your strategy</button>
+            <img class="w-10"src="./media/right-arrow-svgrepo-com (1).svg" alt="">
 
-    </div>
+        </div>
 
-    <div class="py-10">
+        <div class="py-10 md:h-screen md:w-3/5">
 
-        <img src="./media/01-Your_guide_to_differentiating_with_data_568x320.jpg.global.s_16x9.png" alt="">
+            <img class="md:h-full"src="./media/01-Your_guide_to_differentiating_with_data_568x320.jpg.global.s_16x9.png" alt="">
 
 
-    </div>
+        </div>
 
-    <div>
-        <p class="text-xs">Watsonx Day</p>
-        <p class="text-blue-700 hover:underline text-sm">Join the virtual event, 21 june 2023</p>
 
-        <p class="border-b-2 my-10"></p>
-    </div>
+        <div class="md:w-1/5 md:py-10">
 
-    <div>
-        <p class="text-xs">Subscribe</p>
-        <p class="text-blue-700 hover:underline text-sm">Get insight in your inbox  </p>
+            <div>
+                <p class="text-xs">Watsonx Day</p>
+                <p class="text-blue-700 hover:underline text-sm">Join the virtual event, 21 june 2023</p>
 
-        <p class="border-b-2 my-10"></p>
+                <p class="border-b-2 my-10"></p>
+            </div>
+
+            <div>
+                <p class="text-xs">Subscribe</p>
+                <p class="text-blue-700 hover:underline text-sm">Get insight in your inbox  </p>
+
+                <p class="border-b-2 my-10"></p>
+            </div>
+
+        </div>
+
     </div>
 
     <div class="mt-32 mb-4">
@@ -75,11 +136,11 @@
     </div>
 
 
-    <div>
+    <div class="md:flex">
         <!-- first column -->
 
         <div class="border-b-2"></div>
-        <div class="flex justify-between gap-10 hover:bg-slate-100 ">
+        <div class="flex justify-between gap-10 hover:bg-slate-100 md:border">
             <div class="w-1/2 py-5">
                 <img src="./media/IBM_WatsonXData_A05.png.global.xs_1x1.png" alt="">
             </div>
@@ -110,7 +171,7 @@
         <!-- second column -->
 
         <div class="border-b-2"></div>
-        <div class="flex justify-between gap-10 hover:bg-slate-100 ">
+        <div class="flex justify-between gap-10 hover:bg-slate-100 md:border">
             <div class="w-1/2 py-5">
                 <img src="./media/ibm-watsonxai-aspectratio-2-by-1.png.global.xs_1x1.png" alt="">
             </div>
@@ -141,7 +202,7 @@
 
 
         <div class="border-b-2"></div>
-        <div class="flex justify-between gap-10  hover:bg-slate-100">
+        <div class="flex justify-between gap-10  hover:bg-slate-100 border">
             <div class="w-1/2 py-5">
                 <img src="./media/IBM_WatsonXGovernance_A03.png.global.xs_1x1.png" alt="">
             </div>
@@ -171,7 +232,7 @@
         <!-- fourth col image -->
         
         <div class="border-b-2"></div>
-        <div class="flex justify-between gap-10  hover:bg-slate-100">
+        <div class="flex justify-between gap-10  hover:bg-slate-100 border">
             <div class="w py-5">
                 <img class="w-60" src="./media/Generative_AI.jpg" alt="">
             </div>
@@ -221,125 +282,129 @@
 <!-- =========== Section ============ -->
 
 
-    <div class="my-8">
+    <div class="my-8 md:flex flex-col gap-4">
 
         <!-- first -->
+        <div class="md:flex">
 
-        <div class="hover:bg-slate-200">
-            <img  class="h-20"  src="./media/anyconnect-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200">
+                <img  class="h-20"  src="./media/anyconnect-svgrepo-com.svg" alt="">
 
-            <h2 class="text-xl my-5">AI & machine learning</h2>
+                <h2 class="text-xl my-5">AI & machine learning</h2>
 
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
+                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <div></div>
 
-            <div class=" border-b-2 my-10"></div>
-        </div>
+                <div class="md:hidden border-b-2 my-10"></div>
+            </div>
 
-        <!-- Second -->
+            <!-- Second -->
 
-        <div class="hover:bg-slate-200">
-            <img  class="h-20"  src="./media/analytics-chart-growth-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200">
+                <img  class="h-20"  src="./media/analytics-chart-growth-svgrepo-com.svg" alt="">
 
-            <h2 class="text-xl my-5">Analytics</h2>
+                <h2 class="text-xl my-5">Analytics</h2>
 
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
+                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <div></div>
 
-            <div class=" border-b-2 my-10"></div>
-        </div>
-
-
-
-        <!-- Third-->
-
-        <div class="hover:bg-slate-200">
-            <img  class="h-20"  src="./media/science-svgrepo-com.svg" alt="">
-
-            <h2 class="text-xl my-5">Databases</h2>
-
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
-
-            <div class=" border-b-2 my-10"></div>
-        </div>
+                <div class="md:hidden border-b-2 my-10"></div>
+            </div>
 
 
 
-        <!-- fourths -->
+            <!-- Third-->
 
-        <div class="hover:bg-slate-200">
-            <img  class="h-20"  src="./media/server-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200">
+                <img  class="h-20"  src="./media/science-svgrepo-com.svg" alt="">
 
-            <h2 class="text-xl my-5">Compute & Servers</h2>
+                <h2 class="text-xl my-5">Databases</h2>
 
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
+                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <div></div>
 
-            <div class=" border-b-2 my-10"></div>
+                <div class="md:hidden border-b-2 my-10"></div>
+            </div>
+
+
+
+            <!-- fourths -->
+
+            <div class="hover:bg-slate-200">
+                <img  class="h-20"  src="./media/server-svgrepo-com.svg" alt="">
+
+                <h2 class="text-xl my-5">Compute & Servers</h2>
+
+                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <div></div>
+
+                <div class="md:hidden border-b-2 my-10"></div>
+            </div>
         </div>
 
 
 
         <!-- fifth -->
+        <div class="md:flex">
 
-        <div class="hover:bg-slate-200 justify-between flex flex-col gap-16">
-            <div class="py-5">
-                <img class="h-20" src="./media/devops-svgrepo-com (1).svg" alt="">
+            <div class="hover:bg-slate-200">
+                <div class="">
+                    <img class="h-20" src="./media/devops-svgrepo-com (1).svg" alt="">
+                </div>
+
+                <div class="">
+                <h2 class="text-xl ">DevOps</h2>
+
+                    <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                    <div></div>
+                </div>
+
+                <div class=" border-b-2"></div>
             </div>
 
-            <div class="">
-               <h2 class="text-xl my-5">DevOps</h2>
+
+
+            <!-- sixths -->
+
+            <div class="hover:bg-slate-200">
+                <img  class="h-20" src="./media/flowchart-hierarchy-process-svgrepo-com (1).svg" alt="">
+
+                <h2 class="text-xl my-5">IT automation</h2>
 
                 <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
                 <div></div>
+
+                <div class=" border-b-2 my-10"></div>
             </div>
 
-            <div class=" border-b-2"></div>
-        </div>
 
 
+            <!-- seventh -->
 
-        <!-- sixths -->
+            <div class="hover:bg-slate-200">
+                <img class="h-20" src="./media/chipdefense-svgrepo-com.svg" alt="">
 
-        <div class="hover:bg-slate-200">
-            <img  class="h-20" src="./media/flowchart-hierarchy-process-svgrepo-com (1).svg" alt="">
+                <h2 class="text-xl my-5">Quantum</h2>
 
-            <h2 class="text-xl my-5">IT automation</h2>
+                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <div></div>
 
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
-
-            <div class=" border-b-2 my-10"></div>
-        </div>
-
+                <div class=" border-b-2 my-10 "></div>
+            </div>
 
 
-        <!-- seventh -->
+            <!-- Eigth -->
 
-        <div class="hover:bg-slate-200">
-            <img class="h-20" src="./media/chipdefense-svgrepo-com.svg" alt="">
+            <div class="hover:bg-slate-200">
+                <img class="h-20" src="./media/security-svgrepo-com (1).svg" alt="">
 
-            <h2 class="text-xl my-5">Quantum</h2>
+                <h2 class="text-xl my-5">Security & identity</h2>
 
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
+                <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
+                <div></div>
 
-            <div class=" border-b-2 my-10 "></div>
-        </div>
-
-
-        <!-- Eigth -->
-
-        <div class="hover:bg-slate-200">
-            <img class="h-20" src="./media/security-svgrepo-com (1).svg" alt="">
-
-            <h2 class="text-xl my-5">Security & identity</h2>
-
-            <p class="text-xs">Use IBM Watson’s AI or build your own machine learning models</p>
-            <div></div>
-
-            <div class=" border-b-2 my-10"></div>
+                <div class=" border-b-2 my-10"></div>
+            </div>
         </div>
 
 
@@ -499,55 +564,229 @@
 
     <footer class="bg-[rgb(38,38,38)] mx-0 text-white text-sm ">
 
-        <div class="flex flex-col justify-around ">
-            <img src="" alt="">
+        <div class="md:hidden">
 
-            <div class="border my-9 inline-block mx-5" >
-                <p  class="py-2 ml-2">United States - English</p>
-                <img src="" alt="">
+        <!-- ========== Display on Sm screen =============== -->
+
+            <div class="flex flex-col justify-around ">
+                <img class="w-1/5 ml-4" src="./media/ibm-svgrepo-com (2).svg" alt="">
+
+                <div class="border my-9 mx-5 flex justify-between" >
+                    <p  class="py-2 ml-2">United States - English</p>
+                    <img class="w-5 mr-2" src="./media/earth-12-svgrepo-com (1).svg" alt="">
+                </div>
+
+            </div>
+
+            <div class="border-b"></div>
+
+
+            <div>
+
+                <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]">
+                    <p class="py-3 ml-4"><a href="">Products & Solutions</a></p>
+                </div>
+
+                <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]">
+                    <p class="py-3 ml-4"><a href="">Learn about</a></p>
+                </div>
+
+                <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]">
+                    <p class="py-3 ml-4"><a href="">Popular links</a></p>
+                </div>
+
+                <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]" >
+                    <p class="py-3 ml-4"><a href="">About IBM</a></p>
+                </div>
+
+                <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]"> 
+                    <p class="py-3 ml-4"><a href="">Follow IBM</a></p>
+                </div>
+
+                
+
+
+            </div>
+
+
+            <div class="flex flex-col gap-3 text-gray-300 pt-10 pb-20 text-sm">
+                <p class="hover:underline hover:text-white ml-4">Contact IBM</p>
+                <p class="hover:underline hover:text-white  ml-4">Privacy</p>
+                <p class="hover:underline hover:text-white  ml-4">Terms of Use</p>
+                <p class="hover:underline hover:text-white  ml-4">Accessibility</p>
+                <p class="hover:underline hover:text-white  ml-4">Cookie preferences</p>
             </div>
 
         </div>
 
-        <div class="border-b"></div>
 
 
-        <div>
 
-            <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]">
-                <p class="py-3 ml-4"><a href="">Products & Solutions</a></p>
+        <!-- ==========DISPLAY ON MD SCREEN============= -->
+
+        <div class="hidden md:flex  justify-between mx-14 items-center">
+            <img class="w-1/6 ml-4" src="./media/ibm-svgrepo-com (2).svg" alt="">
+
+            <div class="border h-3/5 mx-5 flex justify-between items-center" >
+                <p  class=" py-5 px-3 ml-2">United States - English</p>
+                <img class="w-5 mr-2 py-5 " src="./media/earth-12-svgrepo-com (1).svg" alt="">
             </div>
 
-            <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]">
-                <p class="py-3 ml-4"><a href="">Learn about</a></p>
+        </div>
+
+        <div class="hidden  md:flex flex-col gap-10 ml-72">
+
+            
+            
+
+            <!-- first -->
+            <div class="flex w-3/4 border-t justify-start gap-40 ">
+
+                <div class="text-sm">
+                    <h1 class="font-semibold py-4">Products & Solutions</h1>
+
+                    <div class="opacity-80 flex flex-col gap-1">
+                        <p>Top products & platforms</p>
+                        <p>Industries</p>
+                        <p>Artificial intelligence</p>
+                        <p>Blockchain</p>
+                        <p>Business operations</p>
+                        <p>Cloud computing</p>
+                        <p>Data & Analytics</p>
+                        <p>Hybrid cloud</p>
+                        <p>IT infrastructure</p>
+                        <p>Security</p>
+                        <p>Supply chain</p>
+                        <p>Financing</p>
+                    </div>
+
+
+                </div>
+
+                <!-- middle missed  -->
+
+                <div>
+                    <h1 class="font-semibold py-4">Follow IBM</h1>
+
+                    <div class="opacity-80 flex flex-col gap-1">
+                        <p>LinkedIn</p>
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                        <p>Subscription Center</p>
+                    </div>
+
+
+                </div>
+
+            
+            <!-- second --> 
+
+                <div>
+                    <h1 class="font-semibold py-4">
+                        Popular links</h1>
+
+                    <div class="opacity-80 flex flex-col gap-1">
+                        <p>IBM Consulting</p>
+                        <p>Communities</p>
+                        <p>Developer education</p>
+                        <p>Support - Download fixes, updates & drivers</p>
+                        <p>IBM Research</p>
+                        <p>Partner with us - Partner Plus</p>
+                        <p>Training - Courses</p>
+                        <p>Upcoming events & webinars</p>
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]">
-                <p class="py-3 ml-4"><a href="">Popular links</a></p>
+
+            <!-- third  -->
+            <div class="flex justify-start gap-28">
+                <div class="">
+                    <h1 class="font-semibold py-4">Learn about</h1>
+
+                    <div class="opacity-80 flex flex-col gap-1">
+                        <p>What is Hybrid Cloud?</p>
+                        <p>What is Artificial intelligence?</p>
+                        <p>What is Cloud Computing?</p>
+                        <p>What is Kubernetes?</p>
+                        <p>What are Containers?</p>
+                        <p>What is DevOps?</p>
+                        <p>
+                            What is Machine Learning?</p>
+
+                    </div>
+
+                </div>
+
+                <!-- fourths -->
+
+
+                <div class="">
+
+                    <h1 class="font-semibold py-4">About IBM</h1>
+
+                    <div class="opacity-80 flex flex-col gap-1">
+
+                        <p>Annual report</p>
+                        <p>Career opportunities</p>
+                        <p>Corporate social responsibility</p>
+                        <p>Diversity & inclusion</p>
+                        <p>Industry analyst reports</p>
+                        <p>Investor relations</p>
+                        <p>News & announcements</p>
+                        <p>Thought leadership</p>
+                        <p>Security, privacy & trust</p>
+                        <p>About IBM</p>
+                    </div>
+
+
+
+
+                </div>
+
             </div>
 
-            <div class="border-b opacity-90 hover:bg-[rgba(109,106,106,0.5)]" >
-                <p class="py-3 ml-4"><a href="">About IBM</a></p>
-            </div>
 
-            <div class=" opacity-90 hover:bg-[rgba(109,106,106,0.5)]"> 
-                <p class="py-3 ml-4"><a href="">Follow IBM</a></p>
-            </div>
+        </div>
 
-            <div class="border- opacity-50 font-thin"></div>
+    
+
+        
+
 
 
 
         </div>
 
 
-        <div class="flex flex-col gap-3 text-gray-300 py-10 text-sm">
-            <p class="hover:underline hover:text-white ml-4">Contact IBM</p>
-            <p class="hover:underline hover:text-white  ml-4">Privacy</p>
-            <p class="hover:underline hover:text-white  ml-4">Terms of Use</p>
-            <p class="hover:underline hover:text-white  ml-4">Accessibility</p>
-            <p class="hover:underline hover:text-white  ml-4">Cookie preferences</p>
-        </div>
+        <div class="border-t ml-72 my-5 mr-8"></div>
+
+        <div class="ml-72 flex justify-between ">
+
+            <div class="py-3 ml-5">
+
+                <p class="opacity-70 hover:text-white hover:underline">Contact IBM</p>
+                <p class="opacity-80 hover:text-white hover:underline">Privacy</p>
+
+            </div>
+
+            <div class="py-3">
+                <p class="opacity-70 hover:text-white hover:underline">
+                    Terms of Use
+                </p >
+
+                <p class="opacity-70 hover:text-white hover:underline">Accessibility</p>
+
+            </div>
+
+            <div class="py-3 mr-44">
+
+                <p class="opacity-70 hover:text-white hover:underline">cookie prederences</p>
+
+            </div>
+
 
 
 
